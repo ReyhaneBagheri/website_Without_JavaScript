@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        
+            <title>front</title>
+            <meta charset="UTF-8" />
+            <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" href="style.css" />
+        
+                
+    </head>
+    <body>
+
+        <div class="wrapper">
+            
+            <div class="Header"style="
+            background:
+            url('./img/Header.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;">
+                <pre style="font-size: 40px; padding-top: 90px">I  N  T  E  R  N  E  T</pre>
+                <pre style="font-size: 40px">E  N  G  I  N  E  E  R  I  N  G</pre>
+                <pre style="font-size: 15px">I  S     W  H  A  T     W  E     A  R  E     G  O  I  N  G     T  O</pre>
+                <pre style="font-size: 15px">L  E  A  R  N     I  N     T  H  I  S     C  O  U  R  S  E</pre>
+                <button  class="button" onclick="location.href='#RelatedBooks'">SEE THIS COURSE RELATED BOOKS</button>
+            </div>
+            <div  id="lectures"  class="Lectures"
+                    style="
+                        background:linear-gradient(
+                            to bottom right,
+                            rgba(139, 31, 139, 0.6),
+                            rgba(4, 4, 172, 0.6),
+                            rgba(16, 105, 33, 0.6)
+                        ),  
+                        url('./img/Background.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+                <div class="box1">
+                    <img class="http_icon" src="./img/http_icon.png"/>
+                    <h1 >HTTP</h1>
+                    <p >
+                    The Hypertext Transfer Protocol is an application layer protocol.
+                    Communication between client computers and web servers is done 
+                    by sending HTTP Requests and receiving HTTP Responses.
+                    </p>
+                </div>
+                <div class="box1">
+                    <img class="css_icon" src="./img/css_icon.png"/>
+                    <h1>HTML CSS</h1>
+                    <p>
+                    HTML (HyperText Markup Language) is the standard markup language for
+                    Web pages, CSS is the language we use to style an HTML document.
+                    CSS describes how HTML elements should be displayed.
+                    </p>
+                </div>
+                <div class="box1">
+                    <img class="js_icon" src="./img/js_icon.png"/>
+                    <h1>JAVASCRIPT</h1>
+                    <p>
+                    JavaScript is the programming language of the Web. JavaScript often
+                    abbreviated to JS is a lightweight, interpreted,
+                    or just-in-time compiled programming language with first-class functions.
+                    </p>
+                </div>
+                <div class="box1">
+                    <img class="go_icon" src="./img/go_icon.png"/>
+                    <h1>GOLANG</h1>
+                    <p>
+                    Go language is a programming language initially developed at Google.
+                    It is a statically- typed language having syntax similar to that of C.
+                    Go is used to create computer programs.
+                    </p>
+                </div>
+            </div>
+            <div id="RelatedBooks" class="RelatedBooks">
+                <h1 >MOST POPULAR BOOKS</h1>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="book1_2" src="./img/Book1-2.png" >
+                            <h2>JAVASCRIPT</h2>
+                            <h2 style="margin-top: -30px">GUIDE</h2>
+                            <p style="margin-top: 50px ;font-family: sans-serif">By David Flanagan</p>
+                            <p style="margin-bottom: 20px ;font-family: sans-serif;">Seventh edition</p>
+                            <p style="margin-bottom: 150px;font-family: sans-serif;">Published at 2020</p>
+                        </div>
+                      <div class="flip-card-back">
+                        <h3 style="margin-top: 70%">Price : $30.00</h3>
+                        <button class="bookButton" onclick="location.href='#popup1'">BUY
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="book1_2" src="./img/Book2-2.jpg" >
+                            <h2>ROAD TO</h2>
+                            <h2 style="margin-top: -25px ; margin-right: -10px">REACT</h2>
+                            <p style="margin-top: 50px ;font-family: sans-serif">By Robin Wieruch</p>
+                            <p style="margin-bottom: 20px ;font-family: sans-serif;">2022 edition</p>
+                            <p style="margin-bottom: 150px;font-family: sans-serif;">Published at 2022</p>
+                        </div>
+                      <div class="flip-card-back">
+                        <h3 style="margin-top: 70%">Price : $29.99</h3>
+                        <button class="bookButton" onclick="location.href='#popup2'">BUY
+                        </button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="book1_2" src="./img/Book3-2.png" style="margin-bottom: 40px" >
+                            <h2>INTRODUCING</h2>
+                            <h2 style="margin-top: -23px">GO</h2>
+                            <p style="margin-top: 50px ;font-family: sans-serif">By Caleb Doxsey</p>
+                            <p style="margin-bottom: 20px ;font-family: sans-serif;">First edition</p>
+                            <p style="margin-bottom: 150px;font-family: sans-serif;">Published at 2016</p>
+                        </div>
+                      <div class="flip-card-back">
+                        <h3 style="margin-top: 70%">Price : $29.99</h3>
+                        <button class="bookButton" onclick="location.href='#popup3'">BUY
+                        </button>
+                      </div>
+                    </div>
+                </div>
+                
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        
+                        <a class="close" href="#RelatedBooks">&times;</a>
+
+                        <div class="box4">
+                            <img  src="./img/Book1-1.jpg"  style="height:58vh; width:70%" >
+                        </div>
+                        <div class="box4">
+                            <h2>START READING NOW</h2>
+                            <p style="font-size:15px;">IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</p>
+                            <div class="box4" style="font-size: 15px; margin-right:10px;color: rgb(138, 133, 133);">
+                            
+                                <p>JavaScript is the programming language of the web and is used
+                                    by more software developers today than any other programming
+                                    language. For nearly 25 years this best seller has been the
+                                    go-to guide for JavaScript programmers. The seventh edition is
+                                    fully updated to cover the 2020 version of JavaScript, and new
+                                    chapters cover classes, modules, iterators, generators,
+                                    Promises, async/await, and metaprogramming.</p> 
+                                    <button style="margin-top: 20px;border-radius: 50px; "
+                                        class="bookButton"
+                                        onclick="location.href='https://www.amazon.com/gp/product/1491952024/'"
+                                    >
+                                        BUY NOW
+                                    </button>
+                            </div>
+                            <div class="box4"style="font-size: 15px; border-left: 1px solid #747474;color: rgb(138, 133, 133); ">
+                                <p style="margin-left:10px ">You'll find illuminating and engaging example code throughout.
+                                    This book is for programmers who want to learn JavaScript and
+                                    for web developers who want to take their understanding and
+                                    mastery to the next level. It begins by explaining the
+                                    JavaScript language itself, in detail, from the bottom up. It
+                                    then builds on that foundation to cover the web platform and
+                                    Node.js.</p>
+                                     
+                            </div>
+                            
+
+                        </div>
+                        
+
+                        
+                        
+                        
+                            
+                        
+                    </div>
+                </div>
+
+                <!--pop2-->
+                <div id="popup2" class="overlay">
+                    <div class="popup">
+                        
+                        <a class="close" href="#RelatedBooks">&times;</a>
+
+                        <div class="box4">
+                            <img  src="./img/Book2-1.jpg"  style="height:58vh; width:70%" >
+                        </div>
+                        <div class="box4">
+                            <h2>START READING NOW</h2>
+                            <p style="font-size:15px;">IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</p>
+                            <div class="box4" style="font-size: 15px; margin-right:10px;color: rgb(138, 133, 133);">
+                            
+                                <p>
+                                    The Road to React: Your journey to master React.js in JavaScript - is a comprehensive
+                                    and pragmatic yet concise React feat. Hooks book.
+                                    What you will learn:
+                                    In "The Road to React" you will learn about all the fundamentals of React.
+                                    js with Hooks while building a full-blown React application step by step.
+                                    While you create the React application, every chapter will introduce you
+                                    to a new React key feature.
+                                </p> 
+                                    <button style="margin-top: 20px;border-radius: 50px; "
+                                        class="bookButton"
+                                        onclick="location.href='https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=d_pd_sbs_sccl_2_3/130-5751593-0029724?pd_rd_w=m9yJh&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=MN81G3T0MAX9FR9FAENV&pd_rd_wg=XsyuS&pd_rd_r=c3fff6b6-0e60-41bd-b038-2e16c81b5390&pd_rd_i=172004399X&psc=1'"
+                                    >
+                                        BUY NOW
+                                    </button>
+                            </div>
+                            <div class="box4"style="font-size: 15px; border-left: 1px solid #747474;color: rgb(138, 133, 133); ">
+                                <p style="margin-left:10px ">
+                                    there is more than only the fundamentals:
+                                    The book dives into related topics (e.g. React with TypeScript, Testing, 
+                                    Performance Optimizations) and advanced feature implementations like client- and 
+                                    server-side searching. At the end of the book, you will have a fully working deployed
+                                    React application.
+
+
+                                </p>
+                                     
+                            </div>
+                            
+
+                        </div>
+                        
+
+                        
+                        
+                        
+                            
+                        
+                    </div>
+                </div>
+                <!--pop3-->
+                <div id="popup3" class="overlay">
+                    <div class="popup">
+                        
+                        <a class="close" href="#RelatedBooks">&times;</a>
+
+                        <div class="box4">
+                            <img  src="./img/Book3-1.jpg"  style="height:58vh; width:70%" >
+                        </div>
+                        <div class="box4">
+                            <h2>START READING NOW</h2>
+                            <p style="font-size:15px;">IMPORTANT-PLEASE READ THESE TERMS BEFORE BUYING THE BOOK</p>
+                            <div class="box4" style="font-size: 15px; margin-right:10px;color: rgb(138, 133, 133);">
+                            
+                                <p>
+                                    Perfect for beginners familiar with programming basics,
+                                    this hands-on guide provides an easy introduction to Go,
+                                    the general-purpose programming language from Google. Author Caleb 
+                                    Doxsey covers the languageâ s core features with step-by-step instructions
+                                    and exercises in each chapter to help you practice what you learn.
+                                </p> 
+                                    <button style="margin-top: 50px;border-radius: 50px; "
+                                        class="bookButton"
+                                        onclick="location.href='https://www.amazon.fr/dp/1491941952?psc=1&th=1&linkCode=gs2&tag=vhpoet0ca-21'"
+                                    >
+                                        BUY NOW
+                                    </button>
+                            </div>
+                            <div class="box4"style="font-size: 15px; border-left: 1px solid #747474;color: rgb(138, 133, 133); ">
+                                <p style="margin-left:10px ">
+                                    Go is a general-purpose programming language with a clean syntax 
+                                    and advanced features, including concurrency. This book provides
+                                    the one-on-one support you need to get started with the language, 
+                                    with short, easily digestible chapters that build on one another. 
+                                    By the time you finish this book, not only will you be able to write 
+                                    real Go programs, you'll be ready to tackle advanced techniques.
+
+
+                                </p>
+                                     
+                            </div>
+                            
+
+                        </div>
+                        
+
+                        
+                        
+                        
+                            
+                        
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="Footer">
+                <div class="box3">
+                    <hr />
+                    <a   >CLASS INFO</a>
+                    <a  >CONTACT US</a>
+                    <a  >PRIVACY POLICY</a>
+                    <a  >TERMS</a>
+                </div>
+                <div class="box3">
+                    <hr />
+                    <a>Built by REYHANE BAGHERI for Internet Engineering course in
+                    ADVANCED HTML & CSS</a>
+                </div>
+            </div>
+
+
+            <!--menu-->
+            <button class="icon" onclick="location.href = '#menu'">
+                <div class="line"></div><div class="line"></div><div class="line"></div>
+            </button>
+            <div id="menu" class="menu">
+                <a class="close" href="#">&times;</a>
+                <a class="l"  href="#">01 START</a>
+                <a class="l"href="#lectures">02 COURSE LECTURES</a>
+                <a class="l"style=" margin-bottom: 45px"href="#RelatedBooks">03 RELATED BOOKS</a>
+            </div>
+
+
+
+        </div>
+
+    </body>
+</html>
